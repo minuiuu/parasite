@@ -255,20 +255,20 @@ body{
     position: absolute;
   }
 
-  .box1{
+    .box1{
     display: inline-block;
     width: 300px;
     height: 100vh;
-    /* border: 1px solid green; */
+    /* border: 1px solid pink; */
     position: relative;
-    margin: auto 20px auto 20px ;
-    background: url("img/plan1.jpg");
+
+    background: url("img/plan3.jpg");
 
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 
-
-
+    margin: auto 20px auto 20px ;
   }
 
   .box1:hover {
@@ -284,15 +284,16 @@ body{
     display: inline-block;
     width: 300px;
     height: 100vh;
-    /* border: 1px solid green; */
+    /* border: 1px solid pink; */
     position: relative;
-    margin: auto 20px auto 20px ;
+
     background: url("img/plan2.jpg");
 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
+    margin: auto 20px auto 20px ;
   }
 
   .box2:hover {
