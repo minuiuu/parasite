@@ -37,8 +37,9 @@ body{
 
 .text{
 
+
     color:white;
- 
+    height:50vh;
     display: inline-block;
     max-width: 80%;
     position: relative;
